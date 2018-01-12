@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DSToast (1.1.4)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - IQKeyboardManager (3.3.5)
+  - MBProgressHUD (0.9.2)
+  - RESideMenu (4.0.7)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - WHC_AutoLayoutKit (2.6.4)
+  - WMADPageView (1.0.0):
+    - WMADPageView/TAPageControl (= 1.0.0)
+  - WMADPageView/TAPageControl (1.0.0)
+  - YYWebImage (0.9.12)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - DSToast
+  - FMDB
+  - IQKeyboardManager
+  - MBProgressHUD
+  - RESideMenu
+  - SDWebImage
+  - WHC_AutoLayoutKit (~> 2.6.4)
+  - WMADPageView
+  - YYWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DSToast: 8d1496b91809172588e7f49110c8c53d79a6d688
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  IQKeyboardManager: 128bcb96b3ec03ff87942cdd7fa7f44491aa3d08
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  WHC_AutoLayoutKit: 36da42be3889a042ffc3e6487935f1a6592285ab
+  WMADPageView: e583b6b3a48c00434ef927aadc32fd611e6d6d1a
+  YYWebImage: b4e9a24ea43fbdb3e8eb6a3f43b2186ec1c74675
+
+PODFILE CHECKSUM: 49ca3961d5f0b001224e8c4daf34fe65c8f99194
+
+COCOAPODS: 1.2.0.beta.3

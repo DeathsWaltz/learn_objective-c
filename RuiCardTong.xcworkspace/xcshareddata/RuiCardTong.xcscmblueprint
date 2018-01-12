@@ -1,0 +1,45 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++CDB3AE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++CDB3AE9" : {
+
+    },
+    "03b7e37b-23f9-427a-830e-5722e6140b8d+++02F78C9" : {
+
+    },
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++A480C53" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++CDB3AE9" : 0,
+    "03b7e37b-23f9-427a-830e-5722e6140b8d+++02F78C9" : 0,
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++A480C53" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DFA36C0B-F76A-4D0D-8E7B-08543569BD47",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++CDB3AE9" : "RuiCard\/",
+    "03b7e37b-23f9-427a-830e-5722e6140b8d+++02F78C9" : "",
+    "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++A480C53" : "RuiCard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RuiCardTong",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RuiCardTong.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/47.88.12.205",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03b7e37b-23f9-427a-830e-5722e6140b8d+++02F78C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/47.88.12.205",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++A480C53"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DeathsWaltz\/RuiCard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAB5B8E32013618CA6328CCDB39F031CD30EBDCD+++CDB3AE9"
+    }
+  ]
+}

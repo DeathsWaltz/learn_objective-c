@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E21CF201C27D56900D7A216 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CF1E1C27D56900D7A216 /* password.png */; };
+		3E21CF211C27D56900D7A216 /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CF1F1C27D56900D7A216 /* username.png */; };
+		3E33E79A1C15950900E770F7 /* MenuDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E33E7991C15950900E770F7 /* MenuDelegate.m */; };
+		3E3521D41C2CFD1B0042E165 /* usableIntegralImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3521D31C2CFD1B0042E165 /* usableIntegralImage.png */; };
+		3E4A3B331C3392CA00072BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A3B311C3392CA00072BAC /* LaunchScreen.storyboard */; };
+		3E63768A1C20EB2900E9CC6F /* MoneyContextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6376891C20EB2900E9CC6F /* MoneyContextCell.m */; };
+		3E6376911C20F34000E9CC6F /* moneyimage0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E63768C1C20F34000E9CC6F /* moneyimage0.png */; };
+		3E6376921C20F34000E9CC6F /* moneyimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E63768D1C20F34000E9CC6F /* moneyimage1.png */; };
+		3E6376931C20F34000E9CC6F /* moneyimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E63768E1C20F34000E9CC6F /* moneyimage2.png */; };
+		3E6376941C20F34000E9CC6F /* moneyimage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E63768F1C20F34000E9CC6F /* moneyimage3.png */; };
+		3E6376951C20F34000E9CC6F /* moneyimage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6376901C20F34000E9CC6F /* moneyimage4.png */; };
+		3E6376971C20F89D00E9CC6F /* balance.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6376961C20F89D00E9CC6F /* balance.png */; };
+		3E63769B1C20FB2C00E9CC6F /* PersonageLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63769A1C20FB2C00E9CC6F /* PersonageLoginViewController.m */; };
+		3E63769E1C20FB5C00E9CC6F /* PersonageRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63769D1C20FB5C00E9CC6F /* PersonageRegisterViewController.m */; };
+		3E6376A11C20FB8200E9CC6F /* PersonageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6376A01C20FB8200E9CC6F /* PersonageCenterViewController.m */; };
+		3E6376A81C210B3600E9CC6F /* PersonageLoginOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6376A71C210B3600E9CC6F /* PersonageLoginOutViewController.m */; };
+		3E6376AA1C21150900E9CC6F /* headImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6376A91C21150900E9CC6F /* headImage.png */; };
+		3E8035401C20072E009CBEDA /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E80353F1C20072E009CBEDA /* MoneyViewController.m */; };
+		3E8035431C20088C009CBEDA /* TransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8035421C20088C009CBEDA /* TransferViewController.m */; };
+		3E8035461C200924009CBEDA /* IntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8035451C200924009CBEDA /* IntegralViewController.m */; };
+		3E8035491C2009BA009CBEDA /* FinancialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8035481C2009BA009CBEDA /* FinancialViewController.m */; };
+		3E80354E1C200A51009CBEDA /* TransactionRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E80354D1C200A51009CBEDA /* TransactionRecordsViewController.m */; };
+		3E89DA881C1BB01E000A0AA1 /* DCPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89DA871C1BB01E000A0AA1 /* DCPicScrollView.m */; };
+		3E89DA8B1C1BB14B000A0AA1 /* DCWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89DA8A1C1BB14B000A0AA1 /* DCWebImageManager.m */; };
+		3E8AC6BF1C472F5E00F0917F /* GetUserDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8AC6BE1C472F5E00F0917F /* GetUserDate.m */; };
+		3E8D6B671C390FBF006079DB /* BankNameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8D6B661C390FBF006079DB /* BankNameTableViewController.m */; };
+		3E9DB44B1C1E6A5500782091 /* CellContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DB44A1C1E6A5500782091 /* CellContext.m */; };
+		3E9DB4541C1EADA300782091 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9DB4531C1EADA300782091 /* NextViewController.m */; };
+		3EA42B971C1927AF007FD633 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA42B961C1927AF007FD633 /* RightViewController.m */; };
+		3EA42C2B1C196762007FD633 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA42C261C196762007FD633 /* image0.png */; };
+		3EA42C2C1C196762007FD633 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA42C271C196762007FD633 /* image1.png */; };
+		3EA42C2D1C196762007FD633 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA42C281C196762007FD633 /* image2.png */; };
+		3EA42C2E1C196762007FD633 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA42C291C196762007FD633 /* image3.png */; };
+		3EA42C2F1C196762007FD633 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA42C2A1C196762007FD633 /* image4.png */; };
+		3EAB5F991C37805800D1D2F0 /* UILaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB5F981C37805800D1D2F0 /* UILaunchScreenViewController.m */; };
+		3EAB5F9D1C37A0AA00D1D2F0 /* imageloading.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EAB5F9C1C37A0AA00D1D2F0 /* imageloading.png */; };
+		3EB604E81C1662ED00B3919A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB604E71C1662ED00B3919A /* SecondViewController.m */; };
+		3EB604EB1C16689F00B3919A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB604EA1C16689F00B3919A /* AppDelegate.m */; };
+		3EC931951C2A5BDD00F3A678 /* TransferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC931941C2A5BDD00F3A678 /* TransferCell.m */; };
+		3ED0C7D61C436311008F673B /* AccountBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0C7D51C436311008F673B /* AccountBalanceViewController.m */; };
+		3ED4A8F21C113ECF005FE4E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4A8F11C113ECF005FE4E0 /* main.m */; };
+		3ED4A8F81C113ECF005FE4E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4A8F71C113ECF005FE4E0 /* ViewController.m */; };
+		3ED4A8FB1C113ECF005FE4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4A8F91C113ECF005FE4E0 /* Main.storyboard */; };
+		3ED4A8FE1C113ECF005FE4E0 /* RuiCardTong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4A8FC1C113ECF005FE4E0 /* RuiCardTong.xcdatamodeld */; };
+		3ED4A9001C113ECF005FE4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED4A8FF1C113ECF005FE4E0 /* Assets.xcassets */; };
+		3ED4A90E1C113ECF005FE4E0 /* RuiCardTongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4A90D1C113ECF005FE4E0 /* RuiCardTongTests.m */; };
+		3ED4A9191C113ECF005FE4E0 /* RuiCardTongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4A9181C113ECF005FE4E0 /* RuiCardTongUITests.m */; };
+		3EE06E1C1F627F06000AC8CB /* launchs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EE06E1B1F627F06000AC8CB /* launchs.jpg */; };
+		3EE53AC41C4B28D500D1AEDC /* mapimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE53AC31C4B28D500D1AEDC /* mapimage.png */; };
+		3EEC9EC41C2BBD2F009BB2EA /* SevenSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC9EC31C2BBD2F009BB2EA /* SevenSwitch.m */; };
+		DA5EDCB3CE1F5BE8BBB325B2 /* libPods-RuiCardTong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED4E8E8C407E05B882F93D4 /* libPods-RuiCardTong.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ED4A90A1C113ECF005FE4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED4A8E51C113ECF005FE4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ED4A8EC1C113ECF005FE4E0;
+			remoteInfo = RuiCardTong;
+		};
+		3ED4A9151C113ECF005FE4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ED4A8E51C113ECF005FE4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ED4A8EC1C113ECF005FE4E0;
+			remoteInfo = RuiCardTong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ED4E8E8C407E05B882F93D4 /* libPods-RuiCardTong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuiCardTong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B75BEB461BCE775F0D10A /* Pods-RuiCardTong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuiCardTong.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuiCardTong/Pods-RuiCardTong.release.xcconfig"; sourceTree = "<group>"; };
+		3E21CF1E1C27D56900D7A216 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		3E21CF1F1C27D56900D7A216 /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		3E33E7981C15950900E770F7 /* MenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDelegate.h; sourceTree = "<group>"; };
+		3E33E7991C15950900E770F7 /* MenuDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDelegate.m; sourceTree = "<group>"; };
+		3E3521D31C2CFD1B0042E165 /* usableIntegralImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usableIntegralImage.png; sourceTree = "<group>"; };
+		3E4A3B321C3392CA00072BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E6376881C20EB2900E9CC6F /* MoneyContextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyContextCell.h; sourceTree = "<group>"; };
+		3E6376891C20EB2900E9CC6F /* MoneyContextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyContextCell.m; sourceTree = "<group>"; };
+		3E63768C1C20F34000E9CC6F /* moneyimage0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyimage0.png; sourceTree = "<group>"; };
+		3E63768D1C20F34000E9CC6F /* moneyimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyimage1.png; sourceTree = "<group>"; };
+		3E63768E1C20F34000E9CC6F /* moneyimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyimage2.png; sourceTree = "<group>"; };
+		3E63768F1C20F34000E9CC6F /* moneyimage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyimage3.png; sourceTree = "<group>"; };
+		3E6376901C20F34000E9CC6F /* moneyimage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyimage4.png; sourceTree = "<group>"; };
+		3E6376961C20F89D00E9CC6F /* balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance.png; sourceTree = "<group>"; };
+		3E6376991C20FB2C00E9CC6F /* PersonageLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonageLoginViewController.h; sourceTree = "<group>"; };
+		3E63769A1C20FB2C00E9CC6F /* PersonageLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageLoginViewController.m; sourceTree = "<group>"; };
+		3E63769C1C20FB5C00E9CC6F /* PersonageRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonageRegisterViewController.h; sourceTree = "<group>"; };
+		3E63769D1C20FB5C00E9CC6F /* PersonageRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageRegisterViewController.m; sourceTree = "<group>"; };
+		3E63769F1C20FB8200E9CC6F /* PersonageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonageCenterViewController.h; sourceTree = "<group>"; };
+		3E6376A01C20FB8200E9CC6F /* PersonageCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageCenterViewController.m; sourceTree = "<group>"; };
+		3E6376A61C210B3600E9CC6F /* PersonageLoginOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonageLoginOutViewController.h; sourceTree = "<group>"; };
+		3E6376A71C210B3600E9CC6F /* PersonageLoginOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonageLoginOutViewController.m; sourceTree = "<group>"; };
+		3E6376A91C21150900E9CC6F /* headImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headImage.png; sourceTree = "<group>"; };
+		3E80353E1C20072E009CBEDA /* MoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyViewController.h; sourceTree = "<group>"; };
+		3E80353F1C20072E009CBEDA /* MoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyViewController.m; sourceTree = "<group>"; };
+		3E8035411C20088C009CBEDA /* TransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferViewController.h; sourceTree = "<group>"; };
+		3E8035421C20088C009CBEDA /* TransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferViewController.m; sourceTree = "<group>"; };
+		3E8035441C200924009CBEDA /* IntegralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegralViewController.h; sourceTree = "<group>"; };
+		3E8035451C200924009CBEDA /* IntegralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegralViewController.m; sourceTree = "<group>"; };
+		3E8035471C2009BA009CBEDA /* FinancialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialViewController.h; sourceTree = "<group>"; };
+		3E8035481C2009BA009CBEDA /* FinancialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialViewController.m; sourceTree = "<group>"; };
+		3E80354C1C200A51009CBEDA /* TransactionRecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionRecordsViewController.h; sourceTree = "<group>"; };
+		3E80354D1C200A51009CBEDA /* TransactionRecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionRecordsViewController.m; sourceTree = "<group>"; };
+		3E84111E1C12C90400A9B510 /* DimensMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimensMacros.h; sourceTree = "<group>"; };
+		3E84111F1C12C92A00A9B510 /* PathMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathMacros.h; sourceTree = "<group>"; };
+		3E8411201C12C94C00A9B510 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		3E8411211C12C99000A9B510 /* NotificationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
+		3E8411221C12C9C500A9B510 /* APIStringMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIStringMacros.h; sourceTree = "<group>"; };
+		3E8411231C12C9F900A9B510 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		3E8411241C12CA4E00A9B510 /* RuiCardTong-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RuiCardTong-Prefix.pch"; sourceTree = "<group>"; };
+		3E89DA861C1BB01E000A0AA1 /* DCPicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPicScrollView.h; sourceTree = "<group>"; };
+		3E89DA871C1BB01E000A0AA1 /* DCPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPicScrollView.m; sourceTree = "<group>"; };
+		3E89DA891C1BB14B000A0AA1 /* DCWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCWebImageManager.h; sourceTree = "<group>"; };
+		3E89DA8A1C1BB14B000A0AA1 /* DCWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCWebImageManager.m; sourceTree = "<group>"; };
+		3E8AC6BD1C472F5E00F0917F /* GetUserDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUserDate.h; sourceTree = "<group>"; };
+		3E8AC6BE1C472F5E00F0917F /* GetUserDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUserDate.m; sourceTree = "<group>"; };
+		3E8D6B651C390FBF006079DB /* BankNameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankNameTableViewController.h; sourceTree = "<group>"; };
+		3E8D6B661C390FBF006079DB /* BankNameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankNameTableViewController.m; sourceTree = "<group>"; };
+		3E9DB4491C1E6A5500782091 /* CellContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellContext.h; sourceTree = "<group>"; };
+		3E9DB44A1C1E6A5500782091 /* CellContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellContext.m; sourceTree = "<group>"; };
+		3E9DB4521C1EADA300782091 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		3E9DB4531C1EADA300782091 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		3EA42B961C1927AF007FD633 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		3EA42C261C196762007FD633 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		3EA42C271C196762007FD633 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		3EA42C281C196762007FD633 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		3EA42C291C196762007FD633 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		3EA42C2A1C196762007FD633 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		3EAB5F971C37805800D1D2F0 /* UILaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILaunchScreenViewController.h; sourceTree = "<group>"; };
+		3EAB5F981C37805800D1D2F0 /* UILaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILaunchScreenViewController.m; sourceTree = "<group>"; };
+		3EAB5F9C1C37A0AA00D1D2F0 /* imageloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageloading.png; sourceTree = "<group>"; };
+		3EB604DF1C16580200B3919A /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		3EB604E61C1662ED00B3919A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3EB604E71C1662ED00B3919A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3EB604E91C16689F00B3919A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EB604EA1C16689F00B3919A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EC931931C2A5BDD00F3A678 /* TransferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferCell.h; sourceTree = "<group>"; };
+		3EC931941C2A5BDD00F3A678 /* TransferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferCell.m; sourceTree = "<group>"; };
+		3ED0C7D41C436311008F673B /* AccountBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBalanceViewController.h; sourceTree = "<group>"; };
+		3ED0C7D51C436311008F673B /* AccountBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBalanceViewController.m; sourceTree = "<group>"; };
+		3ED4A8ED1C113ECF005FE4E0 /* RuiCardTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiCardTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED4A8F11C113ECF005FE4E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ED4A8F61C113ECF005FE4E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ED4A8F71C113ECF005FE4E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ED4A8FA1C113ECF005FE4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ED4A8FD1C113ECF005FE4E0 /* RuiCardTong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RuiCardTong.xcdatamodel; sourceTree = "<group>"; };
+		3ED4A8FF1C113ECF005FE4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ED4A9041C113ECF005FE4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED4A9091C113ECF005FE4E0 /* RuiCardTongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiCardTongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED4A90D1C113ECF005FE4E0 /* RuiCardTongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiCardTongTests.m; sourceTree = "<group>"; };
+		3ED4A90F1C113ECF005FE4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED4A9141C113ECF005FE4E0 /* RuiCardTongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiCardTongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED4A9181C113ECF005FE4E0 /* RuiCardTongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiCardTongUITests.m; sourceTree = "<group>"; };
+		3ED4A91A1C113ECF005FE4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE06E1B1F627F06000AC8CB /* launchs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchs.jpg; sourceTree = "<group>"; };
+		3EE53AC31C4B28D500D1AEDC /* mapimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapimage.png; sourceTree = "<group>"; };
+		3EEC9EC21C2BBD2F009BB2EA /* SevenSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenSwitch.h; sourceTree = "<group>"; };
+		3EEC9EC31C2BBD2F009BB2EA /* SevenSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenSwitch.m; sourceTree = "<group>"; };
+		54B62239FEB5A291725C127E /* Pods-RuiCardTong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuiCardTong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuiCardTong/Pods-RuiCardTong.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ED4A8EA1C113ECF005FE4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5EDCB3CE1F5BE8BBB325B2 /* libPods-RuiCardTong.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9061C113ECF005FE4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9111C113ECF005FE4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E33E7951C158F6F00E770F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E33E7961C158FA100E770F7 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3E33E7961C158FA100E770F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E63768B1C20F32300E9CC6F /* Resources */,
+				3E6376A31C20FBF900E9CC6F /* Tools */,
+				3E6376A21C20FB9200E9CC6F /* HomePage */,
+				3E6376981C20FAED00E9CC6F /* Personage */,
+				3E80354F1C201030009CBEDA /* CollectionContext */,
+				3ED4A8F61C113ECF005FE4E0 /* ViewController.h */,
+				3ED4A8F71C113ECF005FE4E0 /* ViewController.m */,
+				3EAB5F971C37805800D1D2F0 /* UILaunchScreenViewController.h */,
+				3EAB5F981C37805800D1D2F0 /* UILaunchScreenViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3E63768B1C20F32300E9CC6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3ED4A8FF1C113ECF005FE4E0 /* Assets.xcassets */,
+				3E6376A51C20FC3F00E9CC6F /* Files */,
+				3E6376A41C20FC3300E9CC6F /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E6376981C20FAED00E9CC6F /* Personage */ = {
+			isa = PBXGroup;
+			children = (
+				3E6376991C20FB2C00E9CC6F /* PersonageLoginViewController.h */,
+				3E63769A1C20FB2C00E9CC6F /* PersonageLoginViewController.m */,
+				3E63769C1C20FB5C00E9CC6F /* PersonageRegisterViewController.h */,
+				3E63769D1C20FB5C00E9CC6F /* PersonageRegisterViewController.m */,
+				3E63769F1C20FB8200E9CC6F /* PersonageCenterViewController.h */,
+				3E6376A01C20FB8200E9CC6F /* PersonageCenterViewController.m */,
+				3E6376A61C210B3600E9CC6F /* PersonageLoginOutViewController.h */,
+				3E6376A71C210B3600E9CC6F /* PersonageLoginOutViewController.m */,
+			);
+			name = Personage;
+			sourceTree = "<group>";
+		};
+		3E6376A21C20FB9200E9CC6F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				3E9DB4521C1EADA300782091 /* NextViewController.h */,
+				3E9DB4531C1EADA300782091 /* NextViewController.m */,
+				3E89DA891C1BB14B000A0AA1 /* DCWebImageManager.h */,
+				3E89DA8A1C1BB14B000A0AA1 /* DCWebImageManager.m */,
+				3E89DA871C1BB01E000A0AA1 /* DCPicScrollView.m */,
+				3E89DA861C1BB01E000A0AA1 /* DCPicScrollView.h */,
+				3EB604DF1C16580200B3919A /* RightViewController.h */,
+				3EA42B961C1927AF007FD633 /* RightViewController.m */,
+				3EB604E61C1662ED00B3919A /* SecondViewController.h */,
+				3EB604E71C1662ED00B3919A /* SecondViewController.m */,
+				3E9DB4491C1E6A5500782091 /* CellContext.h */,
+				3E9DB44A1C1E6A5500782091 /* CellContext.m */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		3E6376A31C20FBF900E9CC6F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3E8AC6BD1C472F5E00F0917F /* GetUserDate.h */,
+				3E8AC6BE1C472F5E00F0917F /* GetUserDate.m */,
+				3EEC9EC21C2BBD2F009BB2EA /* SevenSwitch.h */,
+				3EEC9EC31C2BBD2F009BB2EA /* SevenSwitch.m */,
+				3E84111D1C12C8BD00A9B510 /* Macro */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		3E6376A41C20FC3300E9CC6F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3EE06E1B1F627F06000AC8CB /* launchs.jpg */,
+				3EE53AC31C4B28D500D1AEDC /* mapimage.png */,
+				3EAB5F9C1C37A0AA00D1D2F0 /* imageloading.png */,
+				3E3521D31C2CFD1B0042E165 /* usableIntegralImage.png */,
+				3E21CF1E1C27D56900D7A216 /* password.png */,
+				3E21CF1F1C27D56900D7A216 /* username.png */,
+				3E6376A91C21150900E9CC6F /* headImage.png */,
+				3E6376961C20F89D00E9CC6F /* balance.png */,
+				3E63768C1C20F34000E9CC6F /* moneyimage0.png */,
+				3E63768D1C20F34000E9CC6F /* moneyimage1.png */,
+				3E63768E1C20F34000E9CC6F /* moneyimage2.png */,
+				3E63768F1C20F34000E9CC6F /* moneyimage3.png */,
+				3E6376901C20F34000E9CC6F /* moneyimage4.png */,
+				3EA42C261C196762007FD633 /* image0.png */,
+				3EA42C271C196762007FD633 /* image1.png */,
+				3EA42C281C196762007FD633 /* image2.png */,
+				3EA42C291C196762007FD633 /* image3.png */,
+				3EA42C2A1C196762007FD633 /* image4.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3E6376A51C20FC3F00E9CC6F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4A3B311C3392CA00072BAC /* LaunchScreen.storyboard */,
+				3ED4A8F91C113ECF005FE4E0 /* Main.storyboard */,
+				3ED4A9041C113ECF005FE4E0 /* Info.plist */,
+				3ED4A8FC1C113ECF005FE4E0 /* RuiCardTong.xcdatamodeld */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		3E80354F1C201030009CBEDA /* CollectionContext */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0C7D31C436276008F673B /* MoneyCollectionContext */,
+				3E80353E1C20072E009CBEDA /* MoneyViewController.h */,
+				3E80353F1C20072E009CBEDA /* MoneyViewController.m */,
+				3E8035411C20088C009CBEDA /* TransferViewController.h */,
+				3E8035421C20088C009CBEDA /* TransferViewController.m */,
+				3E8035441C200924009CBEDA /* IntegralViewController.h */,
+				3E8035451C200924009CBEDA /* IntegralViewController.m */,
+				3E8035471C2009BA009CBEDA /* FinancialViewController.h */,
+				3E8035481C2009BA009CBEDA /* FinancialViewController.m */,
+				3E80354C1C200A51009CBEDA /* TransactionRecordsViewController.h */,
+				3E80354D1C200A51009CBEDA /* TransactionRecordsViewController.m */,
+				3E6376881C20EB2900E9CC6F /* MoneyContextCell.h */,
+				3E6376891C20EB2900E9CC6F /* MoneyContextCell.m */,
+				3EC931931C2A5BDD00F3A678 /* TransferCell.h */,
+				3EC931941C2A5BDD00F3A678 /* TransferCell.m */,
+				3E8D6B651C390FBF006079DB /* BankNameTableViewController.h */,
+				3E8D6B661C390FBF006079DB /* BankNameTableViewController.m */,
+			);
+			name = CollectionContext;
+			sourceTree = "<group>";
+		};
+		3E84111D1C12C8BD00A9B510 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				3E84111E1C12C90400A9B510 /* DimensMacros.h */,
+				3E84111F1C12C92A00A9B510 /* PathMacros.h */,
+				3E8411201C12C94C00A9B510 /* UtilsMacros.h */,
+				3E8411211C12C99000A9B510 /* NotificationMacros.h */,
+				3E8411221C12C9C500A9B510 /* APIStringMacros.h */,
+				3E8411231C12C9F900A9B510 /* Macros.h */,
+				3E8411241C12CA4E00A9B510 /* RuiCardTong-Prefix.pch */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		3ED0C7D31C436276008F673B /* MoneyCollectionContext */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0C7D41C436311008F673B /* AccountBalanceViewController.h */,
+				3ED0C7D51C436311008F673B /* AccountBalanceViewController.m */,
+			);
+			name = MoneyCollectionContext;
+			sourceTree = "<group>";
+		};
+		3ED4A8E41C113ECF005FE4E0 = {
+			isa = PBXGroup;
+			children = (
+				3ED4A8EF1C113ECF005FE4E0 /* RuiCardTong */,
+				3ED4A90C1C113ECF005FE4E0 /* RuiCardTongTests */,
+				3ED4A9171C113ECF005FE4E0 /* RuiCardTongUITests */,
+				3ED4A8EE1C113ECF005FE4E0 /* Products */,
+				8795A7C490B26279DD1151E4 /* Pods */,
+				F954AC64BBDF307F0A9A627A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ED4A8EE1C113ECF005FE4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ED4A8ED1C113ECF005FE4E0 /* RuiCardTong.app */,
+				3ED4A9091C113ECF005FE4E0 /* RuiCardTongTests.xctest */,
+				3ED4A9141C113ECF005FE4E0 /* RuiCardTongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ED4A8EF1C113ECF005FE4E0 /* RuiCardTong */ = {
+			isa = PBXGroup;
+			children = (
+				3E33E7951C158F6F00E770F7 /* Classes */,
+				3ED4A8F01C113ECF005FE4E0 /* Supporting Files */,
+			);
+			path = RuiCardTong;
+			sourceTree = "<group>";
+		};
+		3ED4A8F01C113ECF005FE4E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB604E91C16689F00B3919A /* AppDelegate.h */,
+				3EB604EA1C16689F00B3919A /* AppDelegate.m */,
+				3E33E7981C15950900E770F7 /* MenuDelegate.h */,
+				3E33E7991C15950900E770F7 /* MenuDelegate.m */,
+				3ED4A8F11C113ECF005FE4E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ED4A90C1C113ECF005FE4E0 /* RuiCardTongTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ED4A90D1C113ECF005FE4E0 /* RuiCardTongTests.m */,
+				3ED4A90F1C113ECF005FE4E0 /* Info.plist */,
+			);
+			path = RuiCardTongTests;
+			sourceTree = "<group>";
+		};
+		3ED4A9171C113ECF005FE4E0 /* RuiCardTongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ED4A9181C113ECF005FE4E0 /* RuiCardTongUITests.m */,
+				3ED4A91A1C113ECF005FE4E0 /* Info.plist */,
+			);
+			path = RuiCardTongUITests;
+			sourceTree = "<group>";
+		};
+		8795A7C490B26279DD1151E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54B62239FEB5A291725C127E /* Pods-RuiCardTong.debug.xcconfig */,
+				271B75BEB461BCE775F0D10A /* Pods-RuiCardTong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F954AC64BBDF307F0A9A627A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4E8E8C407E05B882F93D4 /* libPods-RuiCardTong.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ED4A8EC1C113ECF005FE4E0 /* RuiCardTong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED4A91D1C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTong" */;
+			buildPhases = (
+				E4A21389605EEF42B3138151 /* [CP] Check Pods Manifest.lock */,
+				3ED4A8E91C113ECF005FE4E0 /* Sources */,
+				3ED4A8EA1C113ECF005FE4E0 /* Frameworks */,
+				3ED4A8EB1C113ECF005FE4E0 /* Resources */,
+				A2692F97273F4D8ADBFC23CF /* [CP] Embed Pods Frameworks */,
+				3BC59DD317440C95F395E97E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuiCardTong;
+			productName = RuiCardTong;
+			productReference = 3ED4A8ED1C113ECF005FE4E0 /* RuiCardTong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ED4A9081C113ECF005FE4E0 /* RuiCardTongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED4A9201C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTongTests" */;
+			buildPhases = (
+				3ED4A9051C113ECF005FE4E0 /* Sources */,
+				3ED4A9061C113ECF005FE4E0 /* Frameworks */,
+				3ED4A9071C113ECF005FE4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED4A90B1C113ECF005FE4E0 /* PBXTargetDependency */,
+			);
+			name = RuiCardTongTests;
+			productName = RuiCardTongTests;
+			productReference = 3ED4A9091C113ECF005FE4E0 /* RuiCardTongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ED4A9131C113ECF005FE4E0 /* RuiCardTongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED4A9231C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTongUITests" */;
+			buildPhases = (
+				3ED4A9101C113ECF005FE4E0 /* Sources */,
+				3ED4A9111C113ECF005FE4E0 /* Frameworks */,
+				3ED4A9121C113ECF005FE4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED4A9161C113ECF005FE4E0 /* PBXTargetDependency */,
+			);
+			name = RuiCardTongUITests;
+			productName = RuiCardTongUITests;
+			productReference = 3ED4A9141C113ECF005FE4E0 /* RuiCardTongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ED4A8E51C113ECF005FE4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ztej;
+				TargetAttributes = {
+					3ED4A8EC1C113ECF005FE4E0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = FRM6383D9B;
+					};
+					3ED4A9081C113ECF005FE4E0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3ED4A8EC1C113ECF005FE4E0;
+					};
+					3ED4A9131C113ECF005FE4E0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3ED4A8EC1C113ECF005FE4E0;
+					};
+				};
+			};
+			buildConfigurationList = 3ED4A8E81C113ECF005FE4E0 /* Build configuration list for PBXProject "RuiCardTong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ED4A8E41C113ECF005FE4E0;
+			productRefGroup = 3ED4A8EE1C113ECF005FE4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ED4A8EC1C113ECF005FE4E0 /* RuiCardTong */,
+				3ED4A9081C113ECF005FE4E0 /* RuiCardTongTests */,
+				3ED4A9131C113ECF005FE4E0 /* RuiCardTongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ED4A8EB1C113ECF005FE4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6376921C20F34000E9CC6F /* moneyimage1.png in Resources */,
+				3E3521D41C2CFD1B0042E165 /* usableIntegralImage.png in Resources */,
+				3E6376931C20F34000E9CC6F /* moneyimage2.png in Resources */,
+				3E21CF201C27D56900D7A216 /* password.png in Resources */,
+				3E6376951C20F34000E9CC6F /* moneyimage4.png in Resources */,
+				3EE06E1C1F627F06000AC8CB /* launchs.jpg in Resources */,
+				3EA42C2E1C196762007FD633 /* image3.png in Resources */,
+				3E6376911C20F34000E9CC6F /* moneyimage0.png in Resources */,
+				3E6376AA1C21150900E9CC6F /* headImage.png in Resources */,
+				3E21CF211C27D56900D7A216 /* username.png in Resources */,
+				3E4A3B331C3392CA00072BAC /* LaunchScreen.storyboard in Resources */,
+				3E6376941C20F34000E9CC6F /* moneyimage3.png in Resources */,
+				3EAB5F9D1C37A0AA00D1D2F0 /* imageloading.png in Resources */,
+				3E6376971C20F89D00E9CC6F /* balance.png in Resources */,
+				3EE53AC41C4B28D500D1AEDC /* mapimage.png in Resources */,
+				3EA42C2F1C196762007FD633 /* image4.png in Resources */,
+				3EA42C2C1C196762007FD633 /* image1.png in Resources */,
+				3EA42C2D1C196762007FD633 /* image2.png in Resources */,
+				3EA42C2B1C196762007FD633 /* image0.png in Resources */,
+				3ED4A9001C113ECF005FE4E0 /* Assets.xcassets in Resources */,
+				3ED4A8FB1C113ECF005FE4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9071C113ECF005FE4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9121C113ECF005FE4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC59DD317440C95F395E97E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuiCardTong/Pods-RuiCardTong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2692F97273F4D8ADBFC23CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuiCardTong/Pods-RuiCardTong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A21389605EEF42B3138151 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ED4A8E91C113ECF005FE4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8035491C2009BA009CBEDA /* FinancialViewController.m in Sources */,
+				3ED4A8F81C113ECF005FE4E0 /* ViewController.m in Sources */,
+				3E63769B1C20FB2C00E9CC6F /* PersonageLoginViewController.m in Sources */,
+				3E8AC6BF1C472F5E00F0917F /* GetUserDate.m in Sources */,
+				3E8D6B671C390FBF006079DB /* BankNameTableViewController.m in Sources */,
+				3E63768A1C20EB2900E9CC6F /* MoneyContextCell.m in Sources */,
+				3EC931951C2A5BDD00F3A678 /* TransferCell.m in Sources */,
+				3E63769E1C20FB5C00E9CC6F /* PersonageRegisterViewController.m in Sources */,
+				3ED4A8FE1C113ECF005FE4E0 /* RuiCardTong.xcdatamodeld in Sources */,
+				3E6376A11C20FB8200E9CC6F /* PersonageCenterViewController.m in Sources */,
+				3E80354E1C200A51009CBEDA /* TransactionRecordsViewController.m in Sources */,
+				3ED4A8F21C113ECF005FE4E0 /* main.m in Sources */,
+				3E89DA8B1C1BB14B000A0AA1 /* DCWebImageManager.m in Sources */,
+				3EB604E81C1662ED00B3919A /* SecondViewController.m in Sources */,
+				3E89DA881C1BB01E000A0AA1 /* DCPicScrollView.m in Sources */,
+				3E8035401C20072E009CBEDA /* MoneyViewController.m in Sources */,
+				3EB604EB1C16689F00B3919A /* AppDelegate.m in Sources */,
+				3E6376A81C210B3600E9CC6F /* PersonageLoginOutViewController.m in Sources */,
+				3EA42B971C1927AF007FD633 /* RightViewController.m in Sources */,
+				3EAB5F991C37805800D1D2F0 /* UILaunchScreenViewController.m in Sources */,
+				3E8035461C200924009CBEDA /* IntegralViewController.m in Sources */,
+				3EEC9EC41C2BBD2F009BB2EA /* SevenSwitch.m in Sources */,
+				3E8035431C20088C009CBEDA /* TransferViewController.m in Sources */,
+				3E9DB44B1C1E6A5500782091 /* CellContext.m in Sources */,
+				3ED0C7D61C436311008F673B /* AccountBalanceViewController.m in Sources */,
+				3E33E79A1C15950900E770F7 /* MenuDelegate.m in Sources */,
+				3E9DB4541C1EADA300782091 /* NextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9051C113ECF005FE4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED4A90E1C113ECF005FE4E0 /* RuiCardTongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED4A9101C113ECF005FE4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED4A9191C113ECF005FE4E0 /* RuiCardTongUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ED4A90B1C113ECF005FE4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ED4A8EC1C113ECF005FE4E0 /* RuiCardTong */;
+			targetProxy = 3ED4A90A1C113ECF005FE4E0 /* PBXContainerItemProxy */;
+		};
+		3ED4A9161C113ECF005FE4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ED4A8EC1C113ECF005FE4E0 /* RuiCardTong */;
+			targetProxy = 3ED4A9151C113ECF005FE4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4A3B311C3392CA00072BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4A3B321C3392CA00072BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3ED4A8F91C113ECF005FE4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ED4A8FA1C113ECF005FE4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ED4A91B1C113ECF005FE4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ED4A91C1C113ECF005FE4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ED4A91E1C113ECF005FE4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B62239FEB5A291725C127E /* Pods-RuiCardTong.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FRM6383D9B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuiCardTong/RuiCardTong-Prefix.pch";
+				INFOPLIST_FILE = RuiCardTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3ED4A91F1C113ECF005FE4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271B75BEB461BCE775F0D10A /* Pods-RuiCardTong.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FRM6383D9B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuiCardTong/RuiCardTong-Prefix.pch";
+				INFOPLIST_FILE = RuiCardTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3ED4A9211C113ECF005FE4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiCardTongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiCardTong.app/RuiCardTong";
+			};
+			name = Debug;
+		};
+		3ED4A9221C113ECF005FE4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiCardTongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiCardTong.app/RuiCardTong";
+			};
+			name = Release;
+		};
+		3ED4A9241C113ECF005FE4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiCardTongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiCardTong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3ED4A9251C113ECF005FE4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiCardTongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztej.RuiCardTongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiCardTong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ED4A8E81C113ECF005FE4E0 /* Build configuration list for PBXProject "RuiCardTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED4A91B1C113ECF005FE4E0 /* Debug */,
+				3ED4A91C1C113ECF005FE4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED4A91D1C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED4A91E1C113ECF005FE4E0 /* Debug */,
+				3ED4A91F1C113ECF005FE4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED4A9201C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED4A9211C113ECF005FE4E0 /* Debug */,
+				3ED4A9221C113ECF005FE4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED4A9231C113ECF005FE4E0 /* Build configuration list for PBXNativeTarget "RuiCardTongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED4A9241C113ECF005FE4E0 /* Debug */,
+				3ED4A9251C113ECF005FE4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3ED4A8FC1C113ECF005FE4E0 /* RuiCardTong.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3ED4A8FD1C113ECF005FE4E0 /* RuiCardTong.xcdatamodel */,
+			);
+			currentVersion = 3ED4A8FD1C113ECF005FE4E0 /* RuiCardTong.xcdatamodel */;
+			path = RuiCardTong.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3ED4A8E51C113ECF005FE4E0 /* Project object */;
+}
